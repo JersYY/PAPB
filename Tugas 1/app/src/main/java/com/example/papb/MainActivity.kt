@@ -30,7 +30,6 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun App() {
-    // kosong = tampilan awal "Halo" saja
     var name by rememberSaveable { mutableStateOf("") }
 
     Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
