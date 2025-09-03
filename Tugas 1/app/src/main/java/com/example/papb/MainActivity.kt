@@ -43,7 +43,7 @@ fun App() {
             Greeting(name = name)
             Spacer(Modifier.height(16.dp))
             Button(onClick = { name = "Steven Anthony" }) {
-                Text("Tampilkan Sapaan")
+                Text("Button")
             }
         }
     }
